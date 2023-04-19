@@ -16,5 +16,6 @@ const update = (id, newObject) => {
     return request.then(response => response.data)
 }
 
+const noteService = {getAll, create, update}
 
-export default  {getAll, create, update} ;
+export default  noteService ;
